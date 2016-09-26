@@ -8,9 +8,9 @@ raw_input()
 s_time=time.time()
 while(1):
 	key=msvcrt.getch()
-	if key=='\xe0':
+	if key=='d':
 		count=count+1
-		print "d",
+		print "-->",
 		if count==finish:
 			break
 print "go down"
@@ -18,22 +18,22 @@ finish=10
 count=0		
 while(1):
 	key=msvcrt.getch()
-	if key=='\xe0':
+	if key=='s':
 		count=count+1
-		print "\t\t\ts"
+		print "\t\t\t\t\t|"
 		if count==finish:
 			break
-print "\t\t\tgo right"			
+print "\t\t\tgo right",			
 finish=10
 count=0
 while(1):
 	key=msvcrt.getch()
-	if key=='\xe0':
+	if key=='d':
 		count=count+1
 		if n==0:
-			print "\t\t\t",
+			print "\t ",
 			n=1
-		print "d",
+		print "-->",
 		if count==finish:
 			break		
 time_elapsed=time.time()-s_time
