@@ -39,3 +39,9 @@ while(1):
 time_elapsed=time.time()-s_time
 print ""
 print "\nthe time taken is%s"%str(time_elapsed)	
+
+''' 
+1. Mention controls for the game before the game is started!
+ex. Press D to move right
+2. The game should be lost, if i press the wrong key.
+'''
